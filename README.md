@@ -1,6 +1,6 @@
 # Page Checker Script
 
-A simple but exceedingly useful script to check a given webpage for a given keyword at a given periodicity. Useful for staying on top of listings (such as craigslist posts) without having to check regularly yourself. Instead, the script will check every n minutes and you'll get an email when a match is found.
+A simple but exceedingly useful script to check a given webpage for a given keyword at a given periodicity. Useful for staying on top of listings (such as craigslist posts) without having to check regularly yourself. Instead, the script will check every n minutes and you'll get an email when the keyword is found anywhere within the HTML of the specified page.
 
 Requires a mailgun account and API key. To set up, create a secrets.py file in the project directory and add your variables:
 
