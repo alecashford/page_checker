@@ -10,4 +10,4 @@ sandbox = 'YOUR_SANDBOX.mailgun.org'
 
 recipient = 'YOUR_EMAIL@DOMAIN.com'
 
-Requires bs4 and requests.
+Requires bs4 and requests. Run in a screen for best results!
