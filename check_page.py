@@ -35,11 +35,15 @@ def main():
 
     tries = 0
     while True:
-        check_page(url, keyword)
-        tries += 1
-        if tries % 10 == 0:
-            print("Tried {} times so far".format(tries))
-        time.sleep(frequency * 60)
+        try:
+            check_page(url, keyword)
+            tries += 1
+            if tries % 10 == 0:
+                print("Tried {} times so far".format(tries))
+            time.sleep(frequency * 60)
+        except:
+            print("Connection failed. Waiting 5 minutes")
+            time.sleep(300)
 
 
 if __name__ == '__main__':
